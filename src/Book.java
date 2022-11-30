@@ -36,8 +36,12 @@ class Author{
         this.gender = gender;
     }
 
-
-
+    @Override
+    public String toString() {
+        return "Author{" +
+                "name='" + name + '\'' +
+                '}';
+    }
 }
 
 public class Book {
@@ -107,7 +111,7 @@ public class Book {
     public String toString() {
         return "Book{" +
                 "name='" + name + '\'' +
-                ", authors=" + Arrays.toString(authors) +
+                Arrays.toString(authors) +
                 ", price=" + price +
                 ", qty=" + qty +
                 '}';

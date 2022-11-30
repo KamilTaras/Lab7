@@ -23,4 +23,8 @@ public class Dog {
     public void setRace(String race) {
         this.race = race;
     }
+
+    public void barking(){
+        System.out.println("Wow, wow!");
+    }
 }
